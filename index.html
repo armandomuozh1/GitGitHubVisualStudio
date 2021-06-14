@@ -1,12 +1,149 @@
+<!-- Armando Muñoz Hernandez 9 "A" IDGS-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica de Git, GitHub y Visual Studio Code</title>
-</head>
-<body>
-    <h1>Armando Muñoz Hernandez 9 A IDGS</h1>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gears of War 5 - Buy</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header role="banner">
+      <div class="main">
+        <nav class="navbar">
+          <div class="brand">
+            <i class="fas fa-skull-crossbones"></i>
+            <h3>Gears 5</h3>
+          </div>
+          <div class="menu">
+            <ul id="menu">
+              <li><a href="#">Armando</a></li>
+              <li><a href="#">Compras</a></li>
+              <li><a href="#">Ventas</a></li>
+              <li><a href="#">Salir</a></li>
+            </ul>
+          </div>
+          <div class="toggle-menu" id="toggle-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        </nav>
+
+        <div class="container-info">
+          <div class="main-info">
+            <h1>¡Hermanos hasta el fin!</h1>
+            <h2>- Marcus Fenix</h2>
+            <button class="btn">Productos</button>
+          </div>
+          <div class="img-content">
+            <img src="img/augurio.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff;"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <section class="products-section">
+      <div class="wrapper">
+        <div class="product-card">
+          <img
+            src="img/1.jpg"
+          />
+          <div class="product-card-content">
+            <span class="product-category">Accesorios</span>
+            <div class="product-name">Lancer dorada</div>
+            <p class="product-description">
+              Esta réplica esta modelada con base en los archivos de la Lancer de Gears of War 5, por lo que puedes esperar un producto fiel con elementos como la sierra, mira ajustable, palancas, y interruptores de seguridad.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>4.5</span>
+              </div>
+              <div class="product-review">121,846 reviews</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="img/2.jpg"
+          />
+          <div class="product-card-content">
+            <span class="product-category">Computadoras</span>
+            <div class="product-name">Productos para gaming</div>
+            <p class="product-description">
+              Razer lanza un teclado y ratón muy precisos y de rápida respuesta, con diseños inspirados en Gears 5 especialmente para Xbox One. Ambos accesorios son compatibles con el sistema Xbox Dynamic Lighting y Razer Chroma para que brillen de diferentes colores.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>4.9</span>
+              </div>
+              <div class="product-review">265,742 reviews</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="img/3.jpg"
+          />
+          <div class="product-card-content">
+            <span class="product-category">Consolas de videojuegos</span>
+            <div class="product-name">Xbox One X edición limitada</div>
+            <p class="product-description">
+              Gears of War 5 tiene un paquete limitado de una consola Xbox One X con un Crimson Omen sumergido en hielo y nieve, simulando el duro clima que veremos en el juego, e incluirá el control inalámbrico de edición limitada inspirado en la protagonista Kait Diaz.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>5.0</span>
+              </div>
+              <div class="product-review">456,457 reviews</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-to-chose">
+      <article>
+        <div class="product--info"></div>
+      </article>
+      <article>
+        <div class="product-info-img"></div>
+      </article>
+    </section>
+
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
